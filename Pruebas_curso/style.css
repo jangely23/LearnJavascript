@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.prueba{
+    width: 500px;
+    height: 800px;
+    margin: auto auto;
+    font-size: 3rem;
+    padding-top: 10%;
+    text-align: center;
+}
+
+#prueba_rutas{
+    display: flex;
+    padding: 10px;
+    
+}
+
+#prueba_rutas select {
+    display: block;
+    width: 300px;
+    height: 60px;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#prueba_rutas button {
+    width: 80px;
+    height: 60px;
+    font-size: 3rem;
+    margin-left: 10px;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.child_style{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.danger {
+    width: 80px;
+    height: 40px;
+    font-size: 3rem;
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 3px;
+    border-color: red 1px solid;
+    color: red;
+    appearance: none;
+}
